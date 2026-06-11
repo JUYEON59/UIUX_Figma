@@ -1,0 +1,13 @@
+.sale-section {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    padding: 64px 0;
+    gap: 64px;
+    background-color: #fff;
+}
+.sale-top-box {
+    display: flex; 
+    padding: 0 44px;
+    
+}
