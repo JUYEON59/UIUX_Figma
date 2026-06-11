@@ -55,38 +55,27 @@ div.main-sl-title {
     display: flex;
     gap: 5px; 
 }
-.box1 {
+.box1, .box4, .box5, .box6 {
     width: 295.83px; height: 454.22px;
-    background: #E6E6E6;
 }
-.img1 {
+.img1, .img2, .img3, .img4, .img5, .img6 {
     width: 295.83px; height: 402.31px;
-    background: #8f3636;
+    background-color: #E6E6E6;
 }
-.text-box {
-    background: #000;
+.text-box1, .text-box2, .text-box3, .text-box4, .text-box5, .text-box6  {
     padding-top: 10px;
     padding-bottom: 7px;
 }
-.title-text1 {}
-.price-text1 {}
-.box2 {
+.title-text1, .title-text2, .title-text3, .title-text4, .title-text5, .title-text6  {
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-weight: 700;
+}
+.price-text1, .price-text2, .price-text3, .price-text4, .price-text5, .price-text6 {
+    font-family: "DM Sans";
+    font-size: 13px;
+}
+.box2, .box3 {
     width: 295.83px; height: 471.22px;
-    background: #E6E6E6;
-}
-.box3 {
-    width: 295.83px; height: 471.22px;
-    background: #E6E6E6;
-}
-.box4 {
-    width: 295.83px; height: 454.22px;
-    background: #E6E6E6;
-}
-.box5 {
-    width: 295.83px; height: 454.22px;
-    background: #E6E6E6;
-}
-.box6 {
-    width: 295.83px; height: 454.22px;
-    background: #E6E6E6;
+    background: #FFF;
 }
