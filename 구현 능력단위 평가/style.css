@@ -1,0 +1,31 @@
+.bestsellers-section {
+    display: flex;
+    flex-direction: column;
+    padding: 124px 80px;
+    background: #FFF;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+    border-top: 1px solid #E1DED9;
+}
+.nav01 {
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+}
+.nav02 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-img-box {
+    display: flex;
+    gap: 40px;
+}
+.img01, .img02, .img03, .img04 {
+    width: 410px; height: 410px;
+    background: #EBEBEB;
+}
+.tile-body-footer {}
