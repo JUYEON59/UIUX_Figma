@@ -1,5 +1,5 @@
 .popup::before {
-    /* 아무것도 작성하지 않아도 contant: ""; 코드 필수 */
+    /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
     content: "";
     width: 30px;
 }
@@ -12,7 +12,7 @@
     line-height: 15px; /* 145.631% */
     display: flex;
     justify-content: space-between ;
-    padding-left: 20px; padding-right: 20px
+    padding-left: 20px; padding-right: 20px;
 }
 .popup::after { 
     content: "X";
@@ -38,8 +38,7 @@
     line-height: 15px; /* 136.364% */
 }
 .logo-box {
-    display: flex;
-    justify-content: center;
+    display: flex; align-items: center;
 }
 .user-box {
     width: 388px;
