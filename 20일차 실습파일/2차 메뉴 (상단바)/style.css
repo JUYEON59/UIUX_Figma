@@ -1,5 +1,4 @@
 .top-bar {
-    border: 1px solid orange;
     display: flex;
     padding: 16px 20px;
     justify-content: space-between;
@@ -26,7 +25,6 @@
 }
 .menu02 {
     border-top: 1px solid rgba(0, 0, 0, 0);
-    background-color: gray;
     height: 0; transition: 0.5s;
     overflow: hidden;
     position: absolute;
@@ -37,6 +35,42 @@
 .menu01:hover > .menu02 {
     border-top: 1px solid rgba(0, 0, 0, 1);
     height: 400px;
+}
+.menu02 > .container {
+    width: 1620px;
+    display: flex;
+}
+.mn02-img-box {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mn02-img-item {
+    width: 300px; height: 300px;
+}
+.mn02-img-item>a{height: 100%;}
+.mn02-img-item img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.mn02-nav {
+    flex-grow: 1;
+    display: flex; align-items: center;
+    justify-content: center;
+}
+.mn02-nav>ul {
+    display: flex; gap: 80px;
+}
+.m02-item>a {
+    font-size: 54px;
+    font-weight: 700;
+    color: #333;
+    transition: 0.3s;
+}
+.m02-item:hover>a {
+    color: blue;
+    text-decoration: underline;
 }
 
 .logo-box {
@@ -53,7 +87,7 @@
     gap: 16px;
     align-items: center;
 }
-.user-tiem {
+.user-item {
     color: #000;
     font-size: 11px;
     line-height: 15px; /* 136.364% */
