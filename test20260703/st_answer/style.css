@@ -6,7 +6,7 @@
     height: 116px;
 }
 .top-bar:hover {
-    background: linear-gradient(90deg, #f7f7f7 0%, #faa5cd 62%, #ff74ba 100%);
+    background: linear-gradient(90deg, #f7f7f7 0%, #e7acd1 62%, #e97bb2 100%);
 }
 .logo-box {
     align-self: center;
